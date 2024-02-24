@@ -24,7 +24,7 @@ In Java, every time the `new` keyword is used to create an object, at least one 
 
 Here are some rules for creating constructors:
 
-- Constructors always have same name as their class name.
+- Constructors always have the same name as their class name.
 - Constructors cannot be declared as `abstract`, `static`, `final`, and `synchronized`.
 - Constructors do not have any explicit return types.
 
@@ -45,6 +45,7 @@ class Tree {
 }
 
 // Output: Tree is created
+
 ```
 
 ### Creating a Parameterized Constructor
@@ -69,4 +70,5 @@ class Employee {
 }
 
 // Output: 110 Ashish
+
 ```
