@@ -25,13 +25,13 @@ Some other important points about the `ArrayList` class include:
 
 ## Syntax
 
-This class is imported with the `java.util` package.
+To use the ArrayList class, you need to import it from the java.util package:
 
 ```java
 import java.util.ArrayList;
 ```
 
-The syntax for defining an instance of `ArrayList` is similar to defining a traditional array. A key difference is that angle brackets `<>` are used instead of square brackets:
+To define an instance of ArrayList, you can use the following syntax, replacing DataType with the desired data type:
 
 ```pseudo
 ArrayList<DataType> arrayListInstance = new ArrayList<DataType>();
@@ -39,7 +39,7 @@ ArrayList<DataType> arrayListInstance = new ArrayList<DataType>();
 
 ## Example
 
-In the example below, a new `ArrayList` instance `arr` is defined. There are print statements throughout to show elements being added to and removed from `arr` before it is ultimately cleared:
+Here's an example that demonstrates the usage of ArrayList. In this example, we create a new ArrayList instance called arr and perform various operations on it, including adding and removing elements:
 
 ```java
 // Import from the java.util package
@@ -67,7 +67,7 @@ public class Example {
 }
 ```
 
-The output would be:
+The output of this example would be:
 
 ```shell
 []
